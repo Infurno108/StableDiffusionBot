@@ -4,8 +4,8 @@ const { key } = require("./config.json");
 
 var raw = JSON.stringify({
   key: key,
-  prompt: "dog",
-  negative_prompt: null,
+  prompt: null,
+  negative_prompt: "dog",
   width: "512",
   height: "512",
   samples: "1",
